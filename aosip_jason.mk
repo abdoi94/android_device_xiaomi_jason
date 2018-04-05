@@ -21,13 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jason device
 $(call inherit-product, device/xiaomi/jason/device.mk)
 
-## Inherit some common AOSiP stuff.
+# Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_jason
+PRODUCT_NAME := aosip_jason
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jason
 PRODUCT_MANUFACTURER := Xiaomi
@@ -42,3 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="jason-user 7.1.1 NMF26X 8.3.8 release-keys"
 
 TARGET_VENDOR := Xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Abdulwahab (AL_IRAQI)"
+

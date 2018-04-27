@@ -243,3 +243,6 @@ persist.camera.dxo=1
 persist.camera.feature.cac=1
 #DXO enable fovc for the video mode
 persist.camera.fovc.enable=1
+
+# LCD Density
+ro.sf.lcd_density=480

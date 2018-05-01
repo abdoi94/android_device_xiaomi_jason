@@ -187,7 +187,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SnapdragonCamera
 
 # ConfigPanel
 PRODUCT_PACKAGES += \
